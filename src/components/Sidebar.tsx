@@ -1,6 +1,10 @@
 import React from 'react';
 import { LayoutDashboard, Briefcase, FileText, UserCircle2, Settings, LogOut, CheckCircle } from 'lucide-react';
-<img src="/hireforge.svg" alt="HireForge" className="w-9 h-9" />
+<img 
+  src={`${import.meta.env.BASE_URL}hireforge.svg`} 
+  alt="HireForge AI Logo" 
+  className="w-10 h-10 object-contain" // Adds size using Tailwind
+/>
 import { ViewState } from '../types';
 
 interface SidebarProps {
